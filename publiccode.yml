@@ -1,0 +1,56 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - data-analytics
+  - data-collection
+description:
+  it:
+    features:
+      - scalabilità
+      - customizzazione
+      - olap
+    genericName: OPL
+    longDescription: >
+      Open Public Library ha come scopo la gestione integrata, e ai fini della
+      pianificazione del servizio, dei dati statistici generati dal servizio di
+      biblioteca. Si compone di un database MySQL e un'infrastruttura in PHP. Un
+      programma attivato dal cron daemon "fotografa" il database dell'Integrad
+      Library System e lo dispone secondo le metriche e le misure individuate da
+      query sviluppate dall'ente gestore. Queste "fotografie" vengono esposte
+      attraverso Application Programming Interface (API) dedicate. I dati quindi
+      possono essere organizzati e pubblicati attraverso sistemi frontend di
+      data visualisation.
+    shortDescription: OLAP per la gestione dei dati di servizio delle biblioteche.
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: EUPL-1.2
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: innovazione@pec.provincia.bs.it
+      name: Luciano Archetti
+  type: internal
+name: Open Public Library
+platforms:
+  - web
+releaseDate: '2020-01-14'
+softwareType: standalone/web
+url: 'https://github.com/provincia-brescia/OPL'
