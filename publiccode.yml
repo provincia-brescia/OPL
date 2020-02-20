@@ -14,6 +14,7 @@ description:
       - olap
     genericName: OPL
     longDescription: >
+      Open Public Libraries. Sviluppare comunità competenti e inclusive nella strategia Europa 2020 (OPL2020). 
       Open Public Library ha come scopo la gestione integrata, e ai fini della
       pianificazione del servizio, dei dati statistici generati dal servizio di
       biblioteca. Si compone di un database MySQL e un'infrastruttura in PHP. Un
@@ -23,6 +24,7 @@ description:
       attraverso Application Programming Interface (API) dedicate. I dati quindi
       possono essere organizzati e pubblicati attraverso sistemi frontend di
       data visualisation.
+      Progetto finanziato con Fondi Europei dal Programma Operativo Nazionale Governance e Capacità Istituzionale 2014-2020.
     shortDescription: OLAP per la gestione dei dati di servizio delle biblioteche.
 developmentStatus: stable
 it:
@@ -48,7 +50,7 @@ maintenance:
     - email: innovazione@pec.provincia.bs.it
       name: Luciano Archetti
   type: internal
-name: Open Public Library
+name: Open Public Libraries. Sviluppare comunità competenti e inclusive nella strategia Europa 2020
 platforms:
   - web
 releaseDate: '2020-01-14'
