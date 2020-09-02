@@ -43,6 +43,8 @@ it:
     codiceIPA: p_bs
 legal:
   license: EUPL-1.2
+  mainCopyrightOwner: Provincia di Brescia
+  repoOwner: Provincia di Brescia
 localisation:
   availableLanguages:
     - it
