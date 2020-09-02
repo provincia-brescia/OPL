@@ -39,6 +39,8 @@ it:
     cie: false
     pagopa: false
     spid: false
+  riuso:
+    codiceIPA: p_bs
 legal:
   license: EUPL-1.2
 localisation:
