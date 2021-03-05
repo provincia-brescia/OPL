@@ -40,7 +40,7 @@ it:
     pagopa: false
     spid: false
   riuso:
-    codiceIPA: p_bs
+    codiceIPA: p_bs  
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: Provincia di Brescia
